@@ -10,7 +10,7 @@ The schematic is largely based on [the work done by bit 9](https://chipmusic.org
 
 I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a few symbols (cpu, ram, cart connector, link port). The specialized footprints were traced by me using fusion 360, using these [scans by bit 9](https://imgur.com/a/X5qKI) as a reference.
 
-## Differences
+## Features
 
 ### USB Type-C
 
@@ -19,10 +19,6 @@ I got rid of the round power connector in favor of an USB-C port. The port is on
 ### Internal ProSound
 
 The headphone output does not pass through the amplifier, only the volume potentiometer.
-
-### AMP Power
-
-The audio amplifier is powered by regulated output.
 
 ### Configurable power paths
 
@@ -46,6 +42,8 @@ A power distribution IC takes the system load away from the power switch, so the
 
 ## Disclaimer
 
+Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Version 1.4 fixes those mistakes, but has not yet been tested.
+
 I am not an electronics expert. This board might fry your games, set your house on fire and kill your pets.
 
 ## WIP Instructions
@@ -61,8 +59,12 @@ Alternatively feel free to generate your own gerbers for your fab house of choic
 - Solder all SMD components on the front side. Refer to the [BOM](KiCad/dmg-01-b.csv).
 - Solder the through hole components and the screen connector.
 - If using a stock (or similar) voltage regulator close JP1 and JP2.
+- Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).
 - (Optional) solder the usb connector and cut an opening for the usb port in the front shell using the provided [rudimentary jig](3d_models/dmg_usbc_jig.stl).
 - The original DC jack hole can be plugged with this simple [3d printed plug](3d_models/dmg_dc_plug.stl).
+
+<img src="images/pcb-v1.3.jpg?raw=true" alt="pcb-v1.3" width="512"/>
+<img src="images/usb-v1.3.jpg?raw=true" alt="usb-v1.3" width="512"/>
 
 ## License
 
