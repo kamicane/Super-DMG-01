@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name "dmg_lib")(type "KiCad")(uri "${DMG_LIB}/dmg_lib.kicad_sym")(options "")(descr ""))
 )

@@ -130,7 +130,57 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          31,
+          36,
+          37,
+          38,
+          39,
+          44
+        ],
+        "name": "work",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161
+        ]
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -390,8 +440,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.6,
         "wire_width": 6.0
       }
     ],
@@ -406,8 +456,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "dmg-01-b.step",
-      "vrml": "dmg-01-b.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
