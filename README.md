@@ -38,7 +38,7 @@ A power distribution IC takes the system load away from the power switch, so the
 
 ## Disclaimer
 
-Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Version 1.4 fixes those mistakes, but has not yet been tested.
+Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Version 1.5 fixes those mistakes, but has not yet been built.
 
 I am not an electronics expert. This board might fry your games, set your house on fire and kill your pets.
 
@@ -46,7 +46,7 @@ I am not an electronics expert. This board might fry your games, set your house 
 
 ### Ordering
 
-Order in 1.0 thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
+Download the gerbers from the [releases](releases) page. Order in 1.0 thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
 
 Alternatively feel free to generate your own gerbers for your fab house of choice using the provided KiCAD files.
 
