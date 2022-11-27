@@ -432,7 +432,7 @@
           "+5V",
           "+BATT",
           "+VSW",
-          "/SWITCH",
+          "SW_OUT",
           "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
