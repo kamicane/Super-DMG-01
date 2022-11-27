@@ -432,10 +432,8 @@
           "+5V",
           "+BATT",
           "+VSW",
-          "-BATT",
           "/SWITCH",
-          "VCC",
-          "VIN"
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

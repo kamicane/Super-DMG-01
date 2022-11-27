@@ -14,15 +14,11 @@ I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a fe
 
 ### USB Type-C
 
-I got rid of the round power connector in favor of an USB-C port. The port is only connected to a pad on the motherboard, you need to add a battery charger. The port is optional.
+I got rid of the round power connector in favor of an USB-C port. The port is only connected to a pad on the motherboard, you need to add your own battery charger. The port is optional.
 
 ### Internal ProSound
 
 The headphone output does not pass through the amplifier, only the volume potentiometer.
-
-### Configurable power paths
-
-To support more complex voltage regulators & battery chargers you can configure the power paths via solder jumpers.
 
 ### Power distribution switch
 
@@ -50,7 +46,7 @@ I am not an electronics expert. This board might fry your games, set your house 
 
 ### Ordering
 
-Order in 1.0 thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option.
+Order in 1.0 thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
 
 Alternatively feel free to generate your own gerbers for your fab house of choice using the provided KiCAD files.
 
@@ -58,7 +54,6 @@ Alternatively feel free to generate your own gerbers for your fab house of choic
 
 - Solder all SMD components on the front side. Refer to the [BOM](KiCad/dmg-01-b.csv).
 - Solder the through hole components and the screen connector.
-- If using a stock (or similar) voltage regulator close JP1 and JP2.
 - Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).
 - (Optional) solder the usb connector and cut an opening for the usb port in the front shell using the provided [rudimentary jig](3d_models/dmg_usbc_jig.stl).
 - The original DC jack hole can be plugged with this simple [3d printed plug](3d_models/dmg_dc_plug.stl).
