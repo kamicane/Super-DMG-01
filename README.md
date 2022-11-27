@@ -46,7 +46,7 @@ I am not an electronics expert. This board might fry your games, set your house 
 
 ### Ordering
 
-Download the gerbers from the [releases](releases) page. Order in 1.0 thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
+Download the gerbers from the [releases](https://github.com/kamicane/DMG-01-B/releases) page. Order in 1.0mm thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
 
 Alternatively feel free to generate your own gerbers for your fab house of choice using the provided KiCAD files.
 
@@ -54,8 +54,8 @@ Alternatively feel free to generate your own gerbers for your fab house of choic
 
 - Solder all SMD components on the front side. Refer to the [BOM](KiCad/dmg-01-b.csv).
 - Solder the through hole components and the screen connector.
-- Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).
 - (Optional) solder the usb connector and cut an opening for the usb port in the front shell using the provided [rudimentary jig](3d_models/dmg_usbc_jig.stl).
+- Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).
 - The original DC jack hole can be plugged with this simple [3d printed plug](3d_models/dmg_dc_plug.stl).
 
 <img src="images/pcb-v1.3.jpg?raw=true" alt="pcb-v1.3" width="512"/>
