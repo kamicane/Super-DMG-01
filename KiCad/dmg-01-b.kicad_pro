@@ -406,8 +406,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "dmg-01-b.step",
+      "vrml": "dmg-01-b.wrl"
     },
     "page_layout_descr_file": ""
   },
