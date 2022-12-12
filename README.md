@@ -16,13 +16,13 @@ I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a fe
 
 I got rid of the round power connector in favor of an USB-C port. The port is only connected to a pad on the motherboard, you need to add your own battery charger. The port is optional.
 
+## Power distribution switch
+
+A power distribution IC takes the system load away from the power switch, so the game boy remains fully operational even if the switch is not in an optimal condition. This circuit can potentially be bypassed with a jumper.
+
 ### Internal ProSound
 
 The headphone output does not pass through the amplifier, only the volume potentiometer.
-
-### Power distribution switch
-
-A power distribution IC takes the system load away from the power switch, so the game boy remains fully operational even if the switch is not in an optimal condition. This circuit can potentially be bypassed with a jumper.
 
 ## Required specialized components
 
@@ -38,7 +38,7 @@ A power distribution IC takes the system load away from the power switch, so the
 
 ## Disclaimer
 
-Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Version 1.5 fixes those mistakes, but has not yet been built.
+Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Releases marked as pre-release are sent to fab, but not yet received and / or built.
 
 I am not an electronics expert. This board might fry your games, set your house on fire and kill your pets.
 
@@ -53,6 +53,8 @@ Alternatively feel free to generate your own gerbers for your fab house of choic
 ### Assembly
 
 - Solder all SMD components on the front side. Refer to the [BOM](KiCad/dmg-01-b.csv).
+- If using a power board with an integrated power distribution close ```J5``` and do not install ```U5```, ```C24```, ```C25```, ```R9```.
+- If using an external amplifier do not install ```U4```, ```C5``` to ```C9```, ```C23```.
 - Solder the through hole components and the screen connector.
 - (Optional) solder the usb connector and cut an opening for the usb port in the front shell using the provided [rudimentary jig](3d_models/dmg_usbc_jig.stl).
 - Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).

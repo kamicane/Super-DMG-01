@@ -431,7 +431,6 @@
         "nets": [
           "+5V",
           "+BATT",
-          "PD_OUT",
           "SW_OUT",
           "VCC"
         ],
