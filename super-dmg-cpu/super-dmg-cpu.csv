@@ -16,6 +16,7 @@ Comment,Designator,Footprint,LCSC
 "180kΩ","R7","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C17501"
 "1MΩ","R8","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C17514"
 "10kΩ","R9","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C17414"
+"DPDT","SW1","kmc_lib:DMGB_POWER_SWITCH","C2848866"
 "LPW5209B5F-21","U5","easyeda2kicad:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL","C517266"
 "CHARGE_PORT","USB1","kmc_lib:USB_C_16p","C319148"
 "4.194304 MHz","X1","dmg_lib:HC-49S","C2149317"

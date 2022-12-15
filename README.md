@@ -1,67 +1,38 @@
-# DMG-01-B
+# Super DMG-01
 
-A KiCAD 6.0 recreation of the original Game Boy motherboard, with a few modern twists.
+A [KiCad](https://www.kicad.org/) 6.0 recreation of the original Game Boy, with a few modern twists.
 
-This board works with both modern IPS and original dot matrix LCDs.
+The only original part required to build a Super DMG-01 is a DMG CPU or a SGB CPU.
 
-<img src="images/pcb-front.png?raw=true" alt="pcb-front" width="512"/>
+<img src="images/photo-cpu-top-v1.7-alpha2.jpg?raw=true" alt="pcb-v1.3" width="48%"/> <img src="images/photo-cpu-bottom-v1.7-alpha2.jpg?raw=true" alt="usb-v1.3" width="48%"/>
 
-The schematic is largely based on [the work done by bit 9](https://chipmusic.org/forums/post/215957/#p215957).
+[<img src="images/pcbway-cpu.png?raw=true" alt="pcbw" width="256px"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13266&issmt=0)
+[<img src="images/pcbway-referral.png?raw=true" alt="pcbway" width="256px"/>](https://pcbway.com/g/Gw03Yt)
 
-I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a few symbols (cpu, ram, cart connector, link port). The specialized footprints were traced by me using fusion 360, using these [scans by bit 9](https://imgur.com/a/X5qKI) as a reference.
+## Credits
 
-## Features
+- bit9 for the [DMG schematics](https://imgur.com/a/X5qKI) and [board scans](https://chipmusic.org/forums/post/215957/#p215957)
+- [Gekkio](https://github.com/Gekkio) for the CPU, RAM, CART symbols from [Gekkio KiCad libs](https://github.com/Gekkio/gekkio-kicad-libs)
 
-### USB Type-C
+## Compatibility
 
-I got rid of the round power connector in favor of an USB-C port. The port is only connected to a pad on the motherboard, you need to add your own battery charger. The port is optional.
+Except for the CPU, the Super DMG-01 can be built using new components only. This means that technically a Super Game Boy CPU is all that's needed to make a working Game Boy. It is also possible to use components harvested from a DMG.
 
-## Power distribution switch
+## Available boards
 
-A power distribution IC takes the system load away from the power switch, so the game boy remains fully operational even if the switch is not in an optimal condition. This circuit can potentially be bypassed with a jumper.
+- CPU Board: [Super DMG CPU](super-dmg-cpu)
+- JACK Board: [Super DMG JACK](super-dmg-jack) (experimental), [DMG Prosound PAK](https://oshpark.com/shared_projects/IECpD72C), or use one from a DMG
 
-### Internal ProSound
+## 3rd party boards
 
-The headphone output does not pass through the amplifier, only the volume potentiometer.
-
-## Required specialized components
-
-- DMG CPU || SGB CPU
-- DMG Power Switch
-- 2x DMG S-RAM || 2x SGB S-RAM || [replacement](https://lcsc.com/product-detail/SRAM_Alliance-Memory-AS6C6264-55SCN_C1351073.html) (untested)
-- DMG Cart Connector || [replacement](https://www.aliexpress.com/item/1005002719771295.html)
-- DMG Screen Connector || [replacement](https://www.aliexpress.com/item/1005004824507106.html)
-- DMG Crystal || [TH replacement](https://lcsc.com/product-detail/Crystals_Suzhou-Liming-Elec-49SS-4-194304-20-10-10-B_C718646.html) (untested) || [SMD replacement](https://lcsc.com/product-detail/Crystals_JYJE-S1T41943ZWJAC_C2149317.html) (untested)
-- DMG AMP (optional if you plan to use an external amplifier)
-- DMG Link connector
-- DMG Volume Potentiometer || [replacement](https://www.aliexpress.com/item/32840044311.html)
+- DC CONV Board: [MouseBiteLabs](https://github.com/MouseBiteLabs)' [DMGC-PWR-01](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) or use one from a DMG
+- LCD Board: Use any of the available IPS kits or use one from a DMG
 
 ## Disclaimer
 
-Version 1.3 was fully operational, albeit with a few silly mistakes (reversed battery connectors and a reversed capacitor polarity). Releases marked as pre-release are sent to fab, but not yet received and / or built.
+I am not an electronics expert. Super DMG-01 might fry your games, set your house on fire and kill your pets.
 
-I am not an electronics expert. This board might fry your games, set your house on fire and kill your pets.
-
-## WIP Instructions
-
-### Ordering
-
-Download the gerbers from the [releases](https://github.com/kamicane/DMG-01-B/releases) page. Order in 1.0mm thickness. The provided gerbers are made to be ordered on JLCPCB. Make sure you select "specify a location" on the "remove order number" option. HASL is fine.
-
-Alternatively feel free to generate your own gerbers for your fab house of choice using the provided KiCAD files.
-
-### Assembly
-
-- Solder all SMD components on the front side. Refer to the [BOM](KiCad/dmg-01-b.csv).
-- If using a power board with an integrated power distribution close ```J5``` and do not install ```U5```, ```C24```, ```C25```, ```R9```.
-- If using an external amplifier do not install ```U4```, ```C5``` to ```C9```, ```C23```.
-- Solder the through hole components and the screen connector.
-- (Optional) solder the usb connector and cut an opening for the usb port in the front shell using the provided [rudimentary jig](3d_models/dmg_usbc_jig.stl).
-- Solder the auxiliary boards DMG-JACK and DMG-DC-CONV (or use modern replacements).
-- The original DC jack hole can be plugged with this simple [3d printed plug](3d_models/dmg_dc_plug.stl).
-
-<img src="images/pcb-v1.3.jpg?raw=true" alt="pcb-v1.3" width="512"/>
-<img src="images/usb-v1.3.jpg?raw=true" alt="usb-v1.3" width="512"/>
+<img src="images/photo-usb.jpg?raw=true" alt="bottom" width="100%"/>
 
 ## License
 

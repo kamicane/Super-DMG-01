@@ -4,4 +4,6 @@ fp-info-cache
 *.kicad_prl
 _*
 gerbers/*
+*gerbers.zip
 *-rounded.kicad_*
+*.wrl
