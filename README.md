@@ -14,18 +14,19 @@ The only original part required to build a Super DMG-01 is a DMG CPU or a SGB CP
 - bit9 for the [DMG schematics](https://imgur.com/a/X5qKI) and [board scans](https://chipmusic.org/forums/post/215957/#p215957)
 - [Gekkio](https://github.com/Gekkio) for the CPU, RAM, CART symbols from [Gekkio KiCad libs](https://github.com/Gekkio/gekkio-kicad-libs)
 
-## Compatibility
+## Separate Boards
 
-Except for the CPU, the Super DMG-01 can be built using new components only. This means that technically a Super Game Boy CPU is all that's needed to make a working Game Boy. It is also possible to use components harvested from a DMG.
-
-## Available boards
+Like an original DMG, the Super DMG-01 is made out of separate boards. Doumentation for each board can be found in the relative sub-folders:
 
 - CPU Board: [Super DMG CPU](super-dmg-cpu)
-- JACK Board: [Super DMG JACK](super-dmg-jack) (experimental), [DMG Prosound PAK](https://oshpark.com/shared_projects/IECpD72C), or use one from a DMG
+- JACK Board: [Super DMG JACK](super-dmg-jack) (experimental)
 
 ## 3rd party boards
 
-- DC CONV Board: [MouseBiteLabs](https://github.com/MouseBiteLabs)' [DMGC-PWR-01](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) or use one from a DMG
+To complete the build additional boards are required:
+
+- JACK board: while Super DMG JACK is under development you can use [DMG Prosound PAK](https://oshpark.com/shared_projects/IECpD72C), or use one from a DMG
+- DC CONV Board: use [MouseBiteLabs](https://github.com/MouseBiteLabs)' [DMGC-PWR-01](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) or use one from a DMG
 - LCD Board: Use any of the available IPS kits or use one from a DMG
 
 ## Disclaimer
