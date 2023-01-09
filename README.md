@@ -2,7 +2,7 @@
 
 A [KiCad](https://www.kicad.org/) 6.0 recreation of the original Game Boy, with a few modern twists.
 
-The only original part required to build a Super DMG-01 is a DMG CPU or a SGB CPU.
+One of the main goals of this project is to build an entire DMG using only a DMG CPU or a SGB CPU.
 
 <img src="images/photo-cpu-top-v1.7-alpha2.jpg?raw=true" alt="pcb-v1.3" width="48%"/> <img src="images/photo-cpu-bottom-v1.7-alpha2.jpg?raw=true" alt="usb-v1.3" width="48%"/>
 

@@ -19,7 +19,7 @@ I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a fe
 
 ### Compatibility
 
-Super DMG CPU can be built using new components only, except for the CPU itself. It is also possible to use components harvested from a DMG. It still requires a link connector from a DMG (if you want the functionality), but I'm working on alternatives / adapter boards.
+Super DMG CPU can be built using new components, except for the CPU, power switch and link connector. It is also possible to use some components harvested from a DMG.
 
 ### USB Type-C
 
@@ -44,7 +44,7 @@ The headphone output does not pass through the amplifier, only the volume potent
 | EXT1 | | 1 | Link Connector | DMG
 | DA1, DA2, DA3, DA4 | SOT-23-3 | 4 | BAV99-7-F | [LCSC](https://www.lcsc.com/product-detail/C106919.html)
 | C1, C23 | 3528 | 2 | 100µf tantalum | [LCSC](https://lcsc.com/product-detail/C122271.html)
-| SW1 | | 1 | Power Switch | DMG, [LCSC](https://www.lcsc.com/product-detail/C2848866.html)
+| SW1 | | 1 | Power Switch | DMG
 | U5 | SOT-23-5 | 1 | Power Distribution | [LCSC](https://lcsc.com/product-detail/C517266.html)
 | D2 | SOD-123 | 1 | 1N414 | [LCSC](https://lcsc.com/product-detail/C83528.html)
 | X1 | HC-49S | 1 | 4.194304 MHz | DMG, [LCSC (TH)](https://lcsc.com/product-detail/C718646.html), [LCSC (SMD)](https://lcsc.com/product-detail/C2149317.html)
@@ -79,9 +79,6 @@ The headphone output does not pass through the amplifier, only the volume potent
 - The original DC jack hole can be covered with this simple [3d printed plug](../3d_models/dmg_dc_plug.stl)
 
 ## Notes
-
-I have not tested the replacement power switch yet, but the footprint is compatible with an original DMG power switch.
-The replacement power switch will likely need a new plastic part to work properly.
 
 If using an original LCD board you need an original *DMG DC CONV* voltage regulator, as acceptable modern replacements that also include the -18v rail *do not exist yet*.
 
