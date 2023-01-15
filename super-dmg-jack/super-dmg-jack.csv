@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"1µf","C1,C2,C5","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",""
+"220pf","C3,C4","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",""
+"PJ-3043-B","CN1","easyeda2kicad:AUDIO-TH_PJ-3043-B","C2682182"
+"DMGB_AUDIO_HEADER","CN2","kmc_lib:CONN-TH_5P-P1.25_LONGPADS","C722604"
+"Speaker","CN3","kmc_lib:CONN-TH_2P-P1.25_HCTL_HC-1.25-2AW_LONGPADS","C722595"
+"FerriteBead_Small","FB1,FB2","Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",""
+"220Ω","R1,R2","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"100Ω","R3,R4","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"10kΩ","R5","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",""
+"PAM8302AADCR","U1","easyeda2kicad:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL","C112137"
+"SN74AHC1G14DBVR","U2","easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR","C7469"
+"TC33X-2-103E","VR1","easyeda2kicad:RES-ADJ-SMD_3P-L3.0-W3.8-P1.75-BR","C719176"

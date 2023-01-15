@@ -3,7 +3,7 @@ fp-info-cache
 *.kicad_sch-bak
 *.kicad_prl
 _*
-gerbers/*
+*/gerbers/*
 *gerbers.zip
 *-rounded.kicad_*
 *.wrl
