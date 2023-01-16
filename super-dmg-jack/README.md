@@ -39,20 +39,36 @@ I use "WSC" 8Ω 2W speakers from AliExpress.
 
 ## Full Installation
 
-- Get the L/R signals from the volume potentiometer. On the stock DMG, grab the signals ** after pot, on Super DMG-01 grab from the bottom pins directly
-- Solder the speaker to this board
+Important: do not solder ```U2``` and/or do not wire the (E)nable signal. The speaker must be connected to this board.
+
+- Solder the SMD components
+- Solder the through hole components
+- On the stock DMG solder the L/R signals to the volume potentiometer (** after pot), on Super DMG-01 solder to the bottom pads directly
 - Get power from the 5v rail on the CPU board
-- Do not solder ```U2``` and/or do not wire the (E)nable signal
+- Adjust the trimpot
+
+### Trimpot notes
+
+Adjust the trimpot to reduce the power draw and max volume of the amplifier. Boot the DMG at minimum volume, and slowly turn it up, while also adjusting the trimpot. The Game Boy will shut down if you're drawing too much power.
+Do the final trimpot adjustment once the DMG volume is at its maximum value.
+
+The final maximum volume will depend on the batteries and the voltage regulator you're using.
 
 ## Jack-only Installation
 
-The jack-only installation is meant to be used with the on-board DMG amplifier, however you still need to solder an extra wire for power as the ENABLE signal need to be inverted.
+The jack-only installation is meant to be used with the on-board DMG amplifier, however you still need to solder an extra wire for power as the ENABLE signal needs to be inverted.
 
-- Get the L/R signals from the volume potentiometer. On the stock DMG, grab the signals ** after pot, on Super DMG-01 grab from the bottom pins directly
-- Keep the speaker in the LCD board
+Important: solder only ```U2```, ```R5```, the headphone jack and the CPU PCB connector. The speaker must be kept in the LCD board.
+
+- Solder the SMD components
+- Solder the through hole components
+- On the stock DMG solder the L/R signals to the volume potentiometer (** after pot), on Super DMG-01 solder to the bottom pads directly
 - Get power from 5V (Super DMG CPU) or SW (stock DMG) on the CPU board
-- Solder only ```U2```, ```R5``` and the headphone jack
 
 ## Notes
 
 3d print the [jack spacer](../3d_models/super_dmg_jack_spacer.stl) for correct alignment.
+
+## License
+
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
