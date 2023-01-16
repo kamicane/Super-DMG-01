@@ -69,6 +69,13 @@ Important: solder only ```U2```, ```R5```, the headphone jack and the CPU PCB co
 
 3d print the [jack spacer](../3d_models/super_dmg_jack_spacer.stl) for correct alignment.
 
+## Ordering
+
+[<img src="../images/pcbway-jack.png?raw=true" alt="pcbway" width="256px"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13350&issmt=0)
+[<img src="../images/pcbway-referral.png?raw=true" alt="pcbway" width="256px"/>](https://pcbway.com/g/Gw03Yt)
+
+Make sure you order in 1.0mm thickness.
+
 ## License
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)

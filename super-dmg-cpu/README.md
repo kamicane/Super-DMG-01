@@ -4,11 +4,6 @@ Super DMG CPU works with both IPS and DOT MATRIX LCD boards.
 
 <img src="../images/cpu-top.svg?raw=true" alt="top" width="48%"/> <img src="../images/cpu-bottom.svg?raw=true" alt="bottom" width="48%"/>
 
-[<img src="../images/pcbway-cpu.png?raw=true" alt="pcbway" width="256px"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13266&issmt=0)
-[<img src="../images/pcbway-referral.png?raw=true" alt="pcbway" width="256px"/>](https://pcbway.com/g/Gw03Yt)
-
-Make sure you order with 1.0mm thickness. Other default options are fine.
-
 ## Credits
 
 The schematic is largely based on [the work done by bit 9](https://imgur.com/a/X5qKI).
@@ -83,6 +78,13 @@ The headphone output does not pass through the amplifier, only the volume potent
 If using an original LCD board you need an original *DMG DC CONV* voltage regulator, as acceptable modern replacements that also include the -18v rail *do not exist yet*.
 
 This pcb cannot be easily biverted yet.
+
+## Ordering
+
+[<img src="../images/pcbway-cpu.png?raw=true" alt="pcbway" width="256px"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13266&issmt=0)
+[<img src="../images/pcbway-referral.png?raw=true" alt="pcbway" width="256px"/>](https://pcbway.com/g/Gw03Yt)
+
+Make sure you order with 1.0mm thickness.
 
 ## License
 

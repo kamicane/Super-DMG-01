@@ -6,8 +6,9 @@ One of the main goals of this project is to build an entire DMG using only a DMG
 
 <img src="images/photo-cpu-top-v1.7-alpha2.jpg?raw=true" alt="pcb-v1.3" width="48%"/> <img src="images/photo-cpu-bottom-v1.7-alpha2.jpg?raw=true" alt="usb-v1.3" width="48%"/>
 
-[<img src="images/pcbway-cpu.png?raw=true" alt="pcbw" width="256px"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13266&issmt=0)
-[<img src="images/pcbway-referral.png?raw=true" alt="pcbway" width="256px"/>](https://pcbway.com/g/Gw03Yt)
+[<img src="images/pcbway-cpu.png?raw=true" alt="pcbw"  width="32%"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13266&issmt=0)
+[<img src="images/pcbway-jack.png?raw=true" alt="pcbway"  width="32%"/>](https://www.pcbway.com/QuickOrderOnline.aspx?projectid=13350&issmt=0)
+[<img src="images/pcbway-referral.png?raw=true" alt="pcbway" width="32%"/>](https://pcbway.com/g/Gw03Yt)
 
 ## Credits
 
