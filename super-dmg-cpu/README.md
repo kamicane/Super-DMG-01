@@ -10,6 +10,10 @@ The schematic is largely based on [the work done by bit 9](https://imgur.com/a/X
 
 I used [Gekkio KiCAD libs](https://github.com/Gekkio/gekkio-kicad-libs) for a few symbols (cpu, ram, cart connector, link port). The specialized footprints were traced by me using fusion 360, using these [scans by bit 9](https://chipmusic.org/forums/topic/13608/dmg-main-board-schematic-circuit-arduinoboy/) as a reference.
 
+## Warning
+
+v1.8 and below have an error with the Link Port, where the footprint was flipped (sigh). If you have a v1.8 or below please don't use the link port, as it might damage the other Game Boy! This was fixed in later versions.
+
 ## Features
 
 ### Compatibility
