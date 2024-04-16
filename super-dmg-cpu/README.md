@@ -49,7 +49,7 @@ The headphone output does not pass through the amplifier, only the volume potent
 | X1 | HC-49S | 1 | 4.194304 MHz | DMG, [LCSC (TH)](https://lcsc.com/product-detail/C718646.html), [LCSC (SMD)](https://lcsc.com/product-detail/C2149317.html)
 | USB1 | USB_C_16p | 1 | Charge Connector | [LCSC](https://lcsc.com/product-detail/C2931472.html)
 | VR1 | | 1 | Volume Pot | DMG, [AliExpress](https://www.aliexpress.com/item/32840044311.html)
-| CN1 | 1.25 x 21 SMD | 1 | LCD Board Connector | DMG, [AliExpress](https://www.aliexpress.com/item/1005004824507106.html)
+| CN1 | 1.25 x 21 SMD | 1 | LCD Board Connector | DMG, [AliExpress](https://www.aliexpress.com/item/1005005484837763.html)
 | CN2 |  | 1 | Cart Connector | DMG, [AliExpress](https://www.aliexpress.com/item/1005002719771295.html)
 | CN3 | | 1 | AA Battery Contacts | DMG, [AliExpress](https://www.aliexpress.com/item/32801068366.html)
 | CN4 | 1.25 TH | 1 | Lipo Battery Connector | [LCSC](https://www.lcsc.com/product-detail/C722595.html)
